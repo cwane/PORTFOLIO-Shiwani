@@ -1,11 +1,11 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaGithub, FaPython } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+      words: ["Fullstack Developer.", "UI Designer.","Freelancer.", "Blogger."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -16,7 +16,7 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">John doe</span>
+          Hi, I'm <span className="text-designColor capitalize">Shiwani Shah</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -27,9 +27,8 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+        Hello everyone!, I am Shiwani Shah currently final year Computer Engineering student at Thapathali Campus. 
+        I am really passionate towards coding and learning something new everyday.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -38,16 +37,19 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
-              <FaTwitter />
-            </span>
-            <span className="bannerIcon">
-              <FaLinkedinIn />
-            </span>
-          </div>
+          <a href="https://github.com/cwane" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+            <FaGithub />
+          </a>
+          <a href="https://www.facebook.com/shiwani.shah.986" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+            <FaFacebookF />
+          </a>
+          {/* <a href="https://twitter.com/ShiwaniShah8" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+            <FaTwitter />
+          </a> */}
+          <a href="https://www.linkedin.com/in/shiwani-shah-246ab4205/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+            <FaLinkedinIn />
+          </a>
+        </div>
         </div>
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
@@ -58,7 +60,7 @@ const LeftBanner = () => {
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <SiNextdotjs />
+              <FaPython />
             </span>
             <span className="bannerIcon">
               <SiTailwindcss />
