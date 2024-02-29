@@ -7,7 +7,15 @@ import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
-import Image from "./images/bannerShiwani.png"
+import Image from "./images/bannerShiwani.png";
+import portfolio from "./images/projects/Portfolio.png";
+import counsultPage from "./images/projects/CounsultancyPage.png";
+import MusicPlayer from "./images/projects/MusicPlayer.png";
+import countries from "./images/projects/Rest Countries api.png";
+import Product from "./images/projects/ProductList.png";
+import Booking from "./images/projects/Ticket Booking System.png";
+
+
 
 export {
   logo,
@@ -19,5 +27,14 @@ export {
   testimonialTwo,
   quote,
   contactImg,
-  Image
+  Image,
+  portfolio,
+  counsultPage,
+  MusicPlayer,
+  countries,
+  Product,
+  Booking
+
+
+
 };

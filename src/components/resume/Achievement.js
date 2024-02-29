@@ -10,7 +10,7 @@ const Achievement = () => {
       className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
       <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+        {/* <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
           <h2 className="text-3xl md:text-4xl font-bold">Company Experience</h2>
         </div>
@@ -59,7 +59,7 @@ const Achievement = () => {
             result="Success"
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
           />
-        </div>
+        </div> */}
       </div>
     </motion.div>
   );

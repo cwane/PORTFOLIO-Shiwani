@@ -16,40 +16,35 @@ const Features = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
           title="Reactjs Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          des="React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes."
          icon={<RiReactjsFill />} 
          
         />
         <Card
           title="Machine Learning"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          des="Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy."
           icon={<AiFillAppstore />}
         />
         <Card
           title="SEO Optimisation"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          des="It is the process of improving your website to increase its visibility in Google, Microsoft Bing, and other search engines whenever people search for: Products you sell."
           icon={<SiProgress />}
         />
         <Card
           title="Backend Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          des=" Back-end developers ensure the website performs correctly, focusing on databases, back-end logic, application programming interface (APIs), architecture, and servers."
           icon={<FaPython /> }
           // icon={<SiDotnet />}
         />
         <Card
-          title="UX Design"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="UI/UX Design"
+          des="UI design involves the look of a product, the visual components and interactive elements that contribute to a strong user experience. UX design focuses on the overarching feel of the
+           product or service and the components that will lead to a meaningful, relevant experience for users."
           icon={<SiAntdesign />}
         />
         <Card
           title="Hosting Websites"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          des="It is an online service that enables you to publish your website or web application on the internet."
           icon={<FaGlobe />}
         />
       </div>
