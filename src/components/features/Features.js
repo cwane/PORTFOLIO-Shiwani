@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiFillAppstore } from "react-icons/ai";
 import { FaPython, FaGlobe } from "react-icons/fa";
-import { SiProgress, SiAntdesign, SiDotnet } from "react-icons/si";
+import { SiProgress, SiAntdesign } from "react-icons/si";
 import { RiReactjsFill } from "react-icons/ri";
 import Title from '../layouts/Title';
 import Card from './Card';
